@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes changeimg{
+           
+            0%{background-image:url("background/back1.jpg");}
+            30%{background-image:url(background/back2.jpeg);}
+            60%{background-image: url(background/back3.jpg);}
+            90%{background-image: url(background/back4.jpg);}
+            100%{background-image: url(background/back1.jpg);}
+        }
+        body{
+           
+            background-image:url("background/back1.jpg");
+            
+            background-repeat: no-repeat;
+            background-size: 1800px 700px;
+            animation-name: changeimg;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+
+
+
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
