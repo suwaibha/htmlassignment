@@ -1,0 +1,44 @@
+h1,legend{
+    text-align: center;
+}
+form{
+    background-image: url("https://miska.co.in/wp-content/uploads/2022/08/Google-Recruitment-Process.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: min(700px, 95%);
+    margin: auto ;
+    border: 1px solid rgb(31, 25, 156) ;
+    border-radius: 8%;
+    height: 750px;
+    
+}
+fieldset{
+    border-radius: 8%; 
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select,
+input[type="date"]
+{
+    width: 100%;
+    padding: 5px;
+    opacity: 0.5;
+}
+input[type="email"]
+{
+    margin-left: 300px;
+    width: 300px;
+    opacity: 0.2;
+}
+#submit{
+    background-color: rgb(86, 129, 197);
+    margin-top: 50px;
+    height: 30px;
+    border-radius: 10%;
+    border: 2px solid black;
+    margin-left: 200px;
+    width: 200px;
+}
